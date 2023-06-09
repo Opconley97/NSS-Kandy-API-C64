@@ -1,162 +1,191 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "fullName": "Steve Harvey",
-            "email": "sman@fued.org",
-            "isStaff": false
-        },
-        {
-            "id": 2,
-            "fullName": "Neil Peart",
-            "email": "professor@dw.com",
-            "isStaff": false
-        },
-        {
-            "id": 3,
-            "fullName": "Matt Gartska",
-            "email": "mgart@gmail.com",
-            "isStaff": false
-        },
-        {
-            "id": 4,
-            "fullName": "Oliver Conley",
-            "email": "oliverconley@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 5,
-            "fullName": "Rae Cabeza",
-            "email": "rbear@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 6,
-            "fullName": "Timmy Peashooter",
-            "email": "ratslayer@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 7,
-            "fullName": "Marcella Hazzan",
-            "email": "italiangrandmother@yahoo.com",
-            "isStaff": true
-        }
-
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "address": "159 Hollow Heart Drive",
-            "phoneNumber": "931-001-0002",
-            "loyaltyNumber": 12345,
-            "userId": 1
-        },
-        {
-            "id": 2,
-            "address": "694 Main Street",
-            "phoneNumber": "615-045-5555",
-            "loyaltyNumber": 21345,
-            "userId": 2
-        },
-        {
-            "id": 3,
-            "address": "8114 Turning Point",
-            "phoneNumber": "404-999-9999",
-            "loyaltyNumber": 31245,
-            "userId": 3
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "speciality": "",
-            "rate": 20,
-            "startDate": "05/01/2021",
-            "userId": 4 
-        },
-        {
-            "id": 2,
-            "speciality": "",
-            "rate": 10,
-            "startDate": "01/01/2023",
-            "userId": 5
-        },
-        {
-            "id": 3,
-            "speciality": "",
-            "rate": 15,
-            "startDate": "08/14/2022",
-            "userId": 6
-        },
-        {
-            "id": 4,
-            "speciality": "",
-            "rate": 50,
-            "startDate": "02/25/2013",
-            "userId": 7
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "address": "101 Candy Lane",
-            "sqFt": 1500
-        },
-        {
-            "id": 2,
-            "address": "1 Industrial Blvd",
-            "sqFt": 15000
-        }
-
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Chocolate Bars",
-            "price": 5.49,
-            "productType": "Chocolate"
-        },
-        {
-            "id": 2,
-            "name": "Gummy Worms",
-            "price": 1.99,
-            "productType": "Gummies"
-        },
-        {
-            "id": 3,
-            "name": "Salt-Water Taffy",
-            "price": 3.49,
-            "productType": "Taffy"
-        },
-        {
-            "id": 4,
-            "name": "Vanilla Ice Cream",
-            "price": 2.29,
-            "productType": "Ice Cream"
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "type": "Chocolate"
-        },
-        {
-            "id": 2,
-            "type": "Gummies"
-        },
-        {
-            "id": 3,
-            "type": "Taffy"
-        },
-        {
-            "id": 4,
-            "type": "Ice Cream"
-        }
-    ],
-    "purchases": [
-        {
-            "id"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Steve Harvey",
+      "email": "sman@fued.org",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Neil Peart",
+      "email": "professor@dw.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Matt Gartska",
+      "email": "mgart@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "fullName": "Oliver Conley",
+      "email": "oliverconley@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Rae Cabeza",
+      "email": "rbear@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Timmy Peashooter",
+      "email": "ratslayer@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 7,
+      "fullName": "Marcella Hazzan",
+      "email": "italiangrandmother@yahoo.com",
+      "isStaff": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "address": "159 Hollow Heart Drive",
+      "phoneNumber": "931-001-0002",
+      "loyaltyNumber": 12345,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "address": "694 Main Street",
+      "phoneNumber": "615-045-5555",
+      "loyaltyNumber": 21345,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "address": "8114 Turning Point",
+      "phoneNumber": "404-999-9999",
+      "loyaltyNumber": 31245,
+      "userId": 3
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "speciality": "",
+      "rate": 20,
+      "startDate": "05/01/2021",
+      "locationId": 1,
+      "userId": 4
+    },
+    {
+      "id": 2,
+      "speciality": "",
+      "rate": 10,
+      "startDate": "01/01/2023",
+      "locationId": 2,
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "speciality": "",
+      "rate": 15,
+      "startDate": "08/14/2022",
+      "locationId": 2,
+      "userId": 6
+    },
+    {
+      "id": 4,
+      "speciality": "",
+      "rate": 50,
+      "startDate": "02/25/2013",
+      "userId": 7
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "101 Candy Lane",
+      "sqFt": 1500
+    },
+    {
+      "id": 2,
+      "address": "1 Industrial Blvd",
+      "sqFt": 15000
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Chocolate Bars",
+      "unitPrice": 6.49,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Dark Chocolate Bars",
+      "unitPrice": 5.49,
+      "productTypeId": 1
+    },
+    {
+      "id": 3,
+      "name": "Gummy Worms",
+      "unitPrice": 1.99,
+      "productTypeId": 2
+    },
+    {
+      "id": 4,
+      "name": "Sour Gummy Worms",
+      "unitPrice": 2.99,
+      "productTypeId": 2
+    },
+    {
+      "id": 5,
+      "name": "Salt-Water Taffy",
+      "unitPrice": 3.49,
+      "productTypeId": 3
+    },
+    {
+      "id": 6,
+      "name": "Vanilla Ice Cream",
+      "unitPrice": 2.29,
+      "productTypeId": 4
+    },
+    {
+      "id": 7,
+      "name": "Chocolate Ice Cream",
+      "unitPrice": 2.29,
+      "productTypeId": 4
+    },
+    {
+      "name": "Strawberry Ice Cream",
+      "unitPrice": "1.99",
+      "productTypeId": "4",
+      "id": 8
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "type": "Chocolate"
+    },
+    {
+      "id": 2,
+      "type": "Gummies"
+    },
+    {
+      "id": 3,
+      "type": "Taffy"
+    },
+    {
+      "id": 4,
+      "type": "Ice Cream"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 1,
+      "unitsPurchased": 1,
+      "totalPurhcasePrice": 1
+    }
+  ]
 }
